@@ -1,0 +1,57 @@
+body {
+    background-color: rgb(253, 230, 230);
+    padding: 20px;
+}
+
+
+
+h1, h2, h3, a, th {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.title {
+    color: rgb(216, 17, 17);
+    text-align: center;
+    font-weight: bold;
+}
+
+.subtitle {
+    color: rgb(216, 17, 17); 
+    text-align: center;
+}
+
+.tablehead ,th{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: rgb(216, 17, 17);
+    color:rgb(253, 230, 230);
+    
+}
+
+.tbody, tr, {
+    padding: 20px;
+    background-color: rgb(255, 219, 219);
+    font-size: sm;
+}
+
+.center-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red-open {
+    padding: 20px;
+    background-color: rgb(255, 219, 219);
+}
+
+.red-black {
+    padding: 20px;
+    background-color: rgb(252, 197, 197);
+}
+
+.name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
